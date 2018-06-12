@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace GodelTech.AreaMonitor
+namespace GodelTech.AreaMonitor.Api
 {
     public static class WebApiConfig
     {
