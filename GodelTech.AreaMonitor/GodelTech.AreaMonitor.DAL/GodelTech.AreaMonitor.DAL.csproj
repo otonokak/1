@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=4.8.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.8.1\lib\net45\Autofac.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -51,10 +54,22 @@
     <Compile Include="Context\AreaMonitorContextInitializer.cs" />
     <Compile Include="Interfaces\IBaseRepository.cs" />
     <Compile Include="Interfaces\IUnitOfWork.cs" />
+    <Compile Include="Interfaces\IUserRepository.cs" />
+    <Compile Include="Interfaces\IUserWebPageRepository.cs" />
+    <Compile Include="Interfaces\IWebPageRepository.cs" />
+    <Compile Include="Interfaces\IWebPageUpdateRepository.cs" />
     <Compile Include="Models\BaseEntity.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\UserWebPage.cs" />
+    <Compile Include="Models\WebPage.cs" />
+    <Compile Include="Models\WebPageUpdate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BaseRepository.cs" />
     <Compile Include="Repositories\UnitOfWork.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Repositories\UserWebPageRepository.cs" />
+    <Compile Include="Repositories\WebPageRepository.cs" />
+    <Compile Include="Repositories\WebPageUpdateRepository.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
