@@ -1,8 +1,8 @@
 ﻿using Autofac;
 using AutoMapper;
-using GodelTech.AreaMonitor.DAL.Context;
-using GodelTech.AreaMonitor.DAL.Interfaces;
-using GodelTech.AreaMonitor.DAL.Repositories;
+using GodelTech.AreaMonitor.Dal.Context;
+using GodelTech.AreaMonitor.Dal.Interfaces;
+using GodelTech.AreaMonitor.Dal.Repositories;
 
 namespace GodelTech.AreaMonitor.Api.Utils
 {

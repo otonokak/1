@@ -1,12 +1,12 @@
-﻿using GodelTech.AreaMonitor.DAL.Context;
-using GodelTech.AreaMonitor.DAL.Interfaces;
-using GodelTech.AreaMonitor.DAL.Models;
+﻿using GodelTech.AreaMonitor.Dal.Context;
+using GodelTech.AreaMonitor.Dal.Interfaces;
+using GodelTech.AreaMonitor.Dal.Models;
 using System;
 using System.Data.Entity;
 using System.Data.Entity.Migrations;
 using System.Threading.Tasks;
 
-namespace GodelTech.AreaMonitor.DAL.Repositories
+namespace GodelTech.AreaMonitor.Dal.Repositories
 {
     public class BaseRepository<T> : IBaseRepository<T>
         where T : BaseEntity

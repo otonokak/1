@@ -57,9 +57,9 @@
     <Compile Include="Services\WebPageUpdateService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GodelTech.AreaMonitor.DAL\GodelTech.AreaMonitor.DAL.csproj">
+    <ProjectReference Include="..\GodelTech.AreaMonitor.DAL\GodelTech.AreaMonitor.Dal.csproj">
       <Project>{F3218D70-4AA9-464A-A9EA-3117657D9948}</Project>
-      <Name>GodelTech.AreaMonitor.DAL</Name>
+      <Name>GodelTech.AreaMonitor.Dal</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

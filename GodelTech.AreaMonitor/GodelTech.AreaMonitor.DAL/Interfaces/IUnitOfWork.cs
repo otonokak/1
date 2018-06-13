@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace GodelTech.AreaMonitor.DAL.Interfaces
+namespace GodelTech.AreaMonitor.Dal.Interfaces
 {
     public interface IUnitOfWork
     {

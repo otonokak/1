@@ -1,6 +1,6 @@
-﻿using GodelTech.AreaMonitor.DAL.Models;
+﻿using GodelTech.AreaMonitor.Dal.Models;
 
-namespace GodelTech.AreaMonitor.DAL.Interfaces
+namespace GodelTech.AreaMonitor.Dal.Interfaces
 {
     public interface IWebPageRepository : IBaseRepository<WebPage>
     {

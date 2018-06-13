@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Autofac;
-using GodelTech.AreaMonitor.DAL.Context;
-using GodelTech.AreaMonitor.DAL.Interfaces;
+using GodelTech.AreaMonitor.Dal.Context;
+using GodelTech.AreaMonitor.Dal.Interfaces;
 
-namespace GodelTech.AreaMonitor.DAL.Repositories
+namespace GodelTech.AreaMonitor.Dal.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {

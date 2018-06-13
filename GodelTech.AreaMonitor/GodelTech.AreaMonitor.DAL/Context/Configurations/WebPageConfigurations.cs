@@ -1,7 +1,7 @@
 ﻿using System.Data.Entity.ModelConfiguration;
-using GodelTech.AreaMonitor.DAL.Models;
+using GodelTech.AreaMonitor.Dal.Models;
 
-namespace GodelTech.AreaMonitor.DAL.Context.Configurations
+namespace GodelTech.AreaMonitor.Dal.Context.Configurations
 {
     public class WebPageConfigurations : EntityTypeConfiguration<WebPage>
     {

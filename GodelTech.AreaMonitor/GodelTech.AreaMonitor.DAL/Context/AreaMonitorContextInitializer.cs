@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace GodelTech.AreaMonitor.DAL.Context
+namespace GodelTech.AreaMonitor.Dal.Context
 {
     public class AreaMonitorContextInitializer : CreateDatabaseIfNotExists<AreaMonitorContext>
     {

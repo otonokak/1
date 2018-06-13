@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace GodelTech.AreaMonitor.Tests.Bll
+namespace GodelTech.AreaMonitor.Bll.Tests
 {
     [TestFixture]
     public class WebPageUpdateServiceTests

@@ -1,7 +1,7 @@
 ﻿using System.Data.Entity;
-using GodelTech.AreaMonitor.DAL.Models;
+using GodelTech.AreaMonitor.Dal.Models;
 
-namespace GodelTech.AreaMonitor.DAL.Context
+namespace GodelTech.AreaMonitor.Dal.Context
 {
     public class AreaMonitorContext : DbContext
     {

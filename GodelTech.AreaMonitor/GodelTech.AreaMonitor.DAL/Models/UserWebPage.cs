@@ -1,4 +1,4 @@
-﻿namespace GodelTech.AreaMonitor.DAL.Models
+﻿namespace GodelTech.AreaMonitor.Dal.Models
 {
     public class UserWebPage : BaseEntity
     {

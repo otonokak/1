@@ -1,8 +1,8 @@
-﻿using GodelTech.AreaMonitor.DAL.Context;
-using GodelTech.AreaMonitor.DAL.Interfaces;
-using GodelTech.AreaMonitor.DAL.Models;
+﻿using GodelTech.AreaMonitor.Dal.Context;
+using GodelTech.AreaMonitor.Dal.Interfaces;
+using GodelTech.AreaMonitor.Dal.Models;
 
-namespace GodelTech.AreaMonitor.DAL.Repositories
+namespace GodelTech.AreaMonitor.Dal.Repositories
 {
     public class WebPageUpdateRepository : BaseRepository<WebPageUpdate>, IWebPageUpdateRepository
     {

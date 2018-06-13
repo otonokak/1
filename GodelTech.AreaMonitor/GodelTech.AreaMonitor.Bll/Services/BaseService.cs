@@ -1,5 +1,5 @@
 ﻿using System;
-using GodelTech.AreaMonitor.DAL.Interfaces;
+using GodelTech.AreaMonitor.Dal.Interfaces;
 
 namespace GodelTech.AreaMonitor.Bll.Services
 {

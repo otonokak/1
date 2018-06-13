@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data;
 
-namespace GodelTech.AreaMonitor.DAL.Models
+namespace GodelTech.AreaMonitor.Dal.Models
 {
     public class WebPageUpdate : BaseEntity
     {

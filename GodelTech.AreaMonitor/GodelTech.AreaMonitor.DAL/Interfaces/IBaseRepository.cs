@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using GodelTech.AreaMonitor.DAL.Models;
+using GodelTech.AreaMonitor.Dal.Models;
 
-namespace GodelTech.AreaMonitor.DAL.Interfaces
+namespace GodelTech.AreaMonitor.Dal.Interfaces
 {
     public interface IBaseRepository<T>
         where T : BaseEntity

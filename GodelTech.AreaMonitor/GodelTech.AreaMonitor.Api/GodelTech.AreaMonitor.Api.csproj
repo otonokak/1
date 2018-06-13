@@ -134,9 +134,9 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GodelTech.AreaMonitor.DAL\GodelTech.AreaMonitor.DAL.csproj">
+    <ProjectReference Include="..\GodelTech.AreaMonitor.DAL\GodelTech.AreaMonitor.Dal.csproj">
       <Project>{f3218d70-4aa9-464a-a9ea-3117657d9948}</Project>
-      <Name>GodelTech.AreaMonitor.DAL</Name>
+      <Name>GodelTech.AreaMonitor.Dal</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
