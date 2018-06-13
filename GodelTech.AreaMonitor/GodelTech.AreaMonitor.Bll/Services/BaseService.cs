@@ -1,6 +1,6 @@
 ﻿namespace GodelTech.AreaMonitor.Bll.Services
 {
-    public class BaseService
+    public abstract class BaseService
     {
     }
 }

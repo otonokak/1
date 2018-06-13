@@ -14,7 +14,7 @@ namespace GodelTech.AreaMonitor.Bll.Services
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<WebPageDto>> GetAllWebPages()
+        public Task<IEnumerable<WebPageDto>> GetAllWebPagesAsync()
         {
             throw new NotImplementedException();
         }
@@ -25,6 +25,11 @@ namespace GodelTech.AreaMonitor.Bll.Services
         }
 
         public Task<OperationDetails> UpdateWebPageAsync(WebPageDto webPageDto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<OperationDetails> DeleteWebPageAsync(int id)
         {
             throw new NotImplementedException();
         }

@@ -41,14 +41,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dto\UserDto.cs" />
+    <Compile Include="Dto\UserWebPageDto.cs" />
     <Compile Include="Dto\WebPageDto.cs" />
+    <Compile Include="Dto\WebPageUpdateDto.cs" />
     <Compile Include="Infrastructure\OperationDetails.cs" />
     <Compile Include="Interfaces\IUserService.cs" />
+    <Compile Include="Interfaces\IUserWebPageService.cs" />
     <Compile Include="Interfaces\IWebPageService.cs" />
+    <Compile Include="Interfaces\IWebPageUpdateService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\BaseService.cs" />
     <Compile Include="Services\UserService.cs" />
+    <Compile Include="Services\UserWebPageService.cs" />
     <Compile Include="Services\WebPageService.cs" />
+    <Compile Include="Services\WebPageUpdateService.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

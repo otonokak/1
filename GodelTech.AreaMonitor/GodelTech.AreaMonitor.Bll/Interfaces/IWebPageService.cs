@@ -11,8 +11,10 @@ namespace GodelTech.AreaMonitor.Bll.Interfaces
 
         Task<WebPageDto> GetWebPageByIdAsync(int id);
 
-        Task<IEnumerable<WebPageDto>> GetAllWebPages();
+        Task<IEnumerable<WebPageDto>> GetAllWebPagesAsync();
 
         Task<OperationDetails> UpdateWebPageAsync(WebPageDto webPageDto);
+
+        Task<OperationDetails> DeleteWebPageAsync(int id);
     }
 }
