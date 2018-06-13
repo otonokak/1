@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodelTech.AreaMonitor.Bll.T
 		{9CCC9F29-16AF-40E1-8444-4B20203BCE68} = {9CCC9F29-16AF-40E1-8444-4B20203BCE68}
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{0440BCC9-9F18-49A5-8FA9-C540E26292F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +54,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8208B2C-D582-4729-9C2B-EDB633B0727F} = {0440BCC9-9F18-49A5-8FA9-C540E26292F7}
+		{D13BD13A-10E7-4D40-8447-F2A8248FC1CE} = {0440BCC9-9F18-49A5-8FA9-C540E26292F7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {636D99D3-2DAB-4677-8649-6362F8C22347}
