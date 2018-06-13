@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodelTech.AreaMonitor.Bll.T
 		{9CCC9F29-16AF-40E1-8444-4B20203BCE68} = {9CCC9F29-16AF-40E1-8444-4B20203BCE68}
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{0440BCC9-9F18-49A5-8FA9-C540E26292F7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0440BCC9-9F18-49A5-8FA9-C540E26292F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
