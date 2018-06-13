@@ -4,14 +4,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodelTech.AreaMonitor.Api", "GodelTech.AreaMonitor.Api\GodelTech.AreaMonitor.Api.csproj", "{CCF22410-E612-4D1E-80E4-8642373C3D06}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9CCC9F29-16AF-40E1-8444-4B20203BCE68} = {9CCC9F29-16AF-40E1-8444-4B20203BCE68}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodelTech.AreaMonitor.Dal", "GodelTech.AreaMonitor.DAL\GodelTech.AreaMonitor.Dal.csproj", "{F3218D70-4AA9-464A-A9EA-3117657D9948}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodelTech.AreaMonitor.Bll", "GodelTech.AreaMonitor.Bll\GodelTech.AreaMonitor.Bll.csproj", "{9CCC9F29-16AF-40E1-8444-4B20203BCE68}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodelTech.AreaMonitor.Api.Tests", "GodelTech.AreaMonitor.Api.Tests\GodelTech.AreaMonitor.Api.Tests.csproj", "{B8208B2C-D582-4729-9C2B-EDB633B0727F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CCF22410-E612-4D1E-80E4-8642373C3D06} = {CCF22410-E612-4D1E-80E4-8642373C3D06}
+		{9CCC9F29-16AF-40E1-8444-4B20203BCE68} = {9CCC9F29-16AF-40E1-8444-4B20203BCE68}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodelTech.AreaMonitor.Bll.Tests", "GodelTech.AreaMonitor.Bll.Tests\GodelTech.AreaMonitor.Bll.Tests.csproj", "{D13BD13A-10E7-4D40-8447-F2A8248FC1CE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9CCC9F29-16AF-40E1-8444-4B20203BCE68} = {9CCC9F29-16AF-40E1-8444-4B20203BCE68}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
