@@ -52,6 +52,10 @@
   <ItemGroup>
     <Compile Include="Context\AreaMonitorContext.cs" />
     <Compile Include="Context\AreaMonitorContextInitializer.cs" />
+    <Compile Include="Context\Configurations\UserConfigurations.cs" />
+    <Compile Include="Context\Configurations\UserWebPageConfigurations.cs" />
+    <Compile Include="Context\Configurations\WebPageConfigurations.cs" />
+    <Compile Include="Context\Configurations\WebPageUpdateConfigurations.cs" />
     <Compile Include="Interfaces\IBaseRepository.cs" />
     <Compile Include="Interfaces\IUnitOfWork.cs" />
     <Compile Include="Interfaces\IUserRepository.cs" />
