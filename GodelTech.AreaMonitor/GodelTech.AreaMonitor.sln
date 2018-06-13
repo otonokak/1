@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodelTech.AreaMonitor.DAL",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodelTech.AreaMonitor.Bll", "GodelTech.AreaMonitor.Bll\GodelTech.AreaMonitor.Bll.csproj", "{9CCC9F29-16AF-40E1-8444-4B20203BCE68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodelTech.AreaMonitor.Tests", "GodelTech.AreaMonitor.Tests\GodelTech.AreaMonitor.Tests.csproj", "{D13BD13A-10E7-4D40-8447-F2A8248FC1CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9CCC9F29-16AF-40E1-8444-4B20203BCE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CCC9F29-16AF-40E1-8444-4B20203BCE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CCC9F29-16AF-40E1-8444-4B20203BCE68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D13BD13A-10E7-4D40-8447-F2A8248FC1CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D13BD13A-10E7-4D40-8447-F2A8248FC1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D13BD13A-10E7-4D40-8447-F2A8248FC1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D13BD13A-10E7-4D40-8447-F2A8248FC1CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

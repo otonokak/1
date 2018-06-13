@@ -11,7 +11,7 @@ namespace GodelTech.AreaMonitor.Bll.Interfaces
 
         Task<UserWebPageDto> GetUserWebPageByIdAsync(int id);
 
-        Task<IEnumerable<UserWebPageDto>> GetAllUserWebPages();
+        Task<IEnumerable<UserWebPageDto>> GetAllUserWebPagesAsync();
 
         Task<OperationDetails> UpdateUserWebPageAsync(UserWebPageDto userWebPageDto);
 

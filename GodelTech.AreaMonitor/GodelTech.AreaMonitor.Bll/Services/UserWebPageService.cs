@@ -24,7 +24,7 @@ namespace GodelTech.AreaMonitor.Bll.Services
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<UserWebPageDto>> GetAllUserWebPages()
+        public Task<IEnumerable<UserWebPageDto>> GetAllUserWebPagesAsync()
         {
             throw new NotImplementedException();
         }
