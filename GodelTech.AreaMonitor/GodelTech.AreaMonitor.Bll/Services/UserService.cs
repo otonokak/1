@@ -3,11 +3,16 @@ using System.Threading.Tasks;
 using GodelTech.AreaMonitor.Bll.Dto;
 using GodelTech.AreaMonitor.Bll.Infrastructure;
 using GodelTech.AreaMonitor.Bll.Interfaces;
+using GodelTech.AreaMonitor.DAL.Interfaces;
 
 namespace GodelTech.AreaMonitor.Bll.Services
 {
     public class UserService : BaseService, IUserService
     {
+        public UserService(IUnitOfWork unitOfWork) : base(unitOfWork)
+        {
+        }
+
         public Task<OperationDetails> CreateUserAsync(UserDto userDto)
         {
             throw new NotImplementedException();

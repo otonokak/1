@@ -4,11 +4,16 @@ using System.Threading.Tasks;
 using GodelTech.AreaMonitor.Bll.Dto;
 using GodelTech.AreaMonitor.Bll.Infrastructure;
 using GodelTech.AreaMonitor.Bll.Interfaces;
+using GodelTech.AreaMonitor.DAL.Interfaces;
 
 namespace GodelTech.AreaMonitor.Bll.Services
 {
     public class UserWebPageService : BaseService, IUserWebPageService
     {
+        public UserWebPageService(IUnitOfWork unitOfWork) : base(unitOfWork)
+        {
+        }
+
         public Task<OperationDetails> CreateUserWebPageAsync(UserWebPageDto userWebPageDto)
         {
             throw new NotImplementedException();

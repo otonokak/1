@@ -4,11 +4,16 @@ using System.Threading.Tasks;
 using GodelTech.AreaMonitor.Bll.Dto;
 using GodelTech.AreaMonitor.Bll.Infrastructure;
 using GodelTech.AreaMonitor.Bll.Interfaces;
+using GodelTech.AreaMonitor.DAL.Interfaces;
 
 namespace GodelTech.AreaMonitor.Bll.Services
 {
     public class WebPageUpdateService : BaseService, IWebPageUpdateService
     {
+        public WebPageUpdateService(IUnitOfWork unitOfWork) : base(unitOfWork)
+        {
+        }
+
         public Task<OperationDetails> CreateWebPageUpdateAsync(WebPageUpdateDto webPageUpdateDto)
         {
             throw new NotImplementedException();
