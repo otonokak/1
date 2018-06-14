@@ -21,7 +21,7 @@ namespace GodelTech.AreaMonitor.Api
             builder.RegisterType<UserWebPageRepository>().As<IUserWebPageRepository>().InstancePerRequest();
             builder.RegisterType<WebPageRepository>().As<IWebPageRepository>().InstancePerRequest();
             builder.RegisterType<WebPageUpdateRepository>().As<IWebPageUpdateRepository>().InstancePerRequest();
-            builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerRequest();
+            builder.RegisterType<AreaMonitorUnitOfWork>().As<IAreaMonitorUnitOfWork>().InstancePerRequest();
         }
 
         private static void RegisterContext(ContainerBuilder builder)

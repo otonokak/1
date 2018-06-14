@@ -6,12 +6,12 @@ using GodelTech.AreaMonitor.Dal.Interfaces;
 
 namespace GodelTech.AreaMonitor.Dal.Repositories
 {
-    public class UnitOfWork : IUnitOfWork
+    public class AreaMonitorUnitOfWork : IAreaMonitorUnitOfWork
     {
         private readonly AreaMonitorContext context;
         private readonly ILifetimeScope lifetimeScope;
 
-        public UnitOfWork(AreaMonitorContext context, ILifetimeScope lifetimeScope)
+        public AreaMonitorUnitOfWork(AreaMonitorContext context, ILifetimeScope lifetimeScope)
         {
             this.context = context ?? throw new ArgumentNullException(nameof(context));
             this.lifetimeScope = lifetimeScope ?? throw new ArgumentNullException(nameof(lifetimeScope));

@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace GodelTech.AreaMonitor.Dal.Interfaces
 {
-    public interface IUnitOfWork : IDisposable
+    public interface IAreaMonitorUnitOfWork : IDisposable
     {
         IUserRepository UserRepository { get; }
 
