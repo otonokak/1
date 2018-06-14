@@ -8,7 +8,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodelTech.AreaMonitor.Api",
 		{9CCC9F29-16AF-40E1-8444-4B20203BCE68} = {9CCC9F29-16AF-40E1-8444-4B20203BCE68}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodelTech.AreaMonitor.Dal", "GodelTech.AreaMonitor.DAL\GodelTech.AreaMonitor.Dal.csproj", "{F3218D70-4AA9-464A-A9EA-3117657D9948}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodelTech.AreaMonitor.Dal", "GodelTech.AreaMonitor.Dal\GodelTech.AreaMonitor.Dal.csproj", "{F3218D70-4AA9-464A-A9EA-3117657D9948}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodelTech.AreaMonitor.Bll", "GodelTech.AreaMonitor.Bll\GodelTech.AreaMonitor.Bll.csproj", "{9CCC9F29-16AF-40E1-8444-4B20203BCE68}"
 EndProject
