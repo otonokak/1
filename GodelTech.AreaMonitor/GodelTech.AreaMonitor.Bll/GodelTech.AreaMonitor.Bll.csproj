@@ -45,7 +45,7 @@
     <Compile Include="Dto\UserWebPageDto.cs" />
     <Compile Include="Dto\WebPageDto.cs" />
     <Compile Include="Dto\WebPageUpdateDto.cs" />
-    <Compile Include="Dto\WebPageUpdateStatus.cs" />
+    <Compile Include="Enum\WebPageUpdateStatus.cs" />
     <Compile Include="Infrastructure\OperationDetails.cs" />
     <Compile Include="Interfaces\IUserService.cs" />
     <Compile Include="Interfaces\IUserWebPageService.cs" />

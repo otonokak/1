@@ -1,4 +1,5 @@
 ﻿using System;
+using GodelTech.AreaMonitor.Bll.Enum;
 
 namespace GodelTech.AreaMonitor.Bll.Dto
 {

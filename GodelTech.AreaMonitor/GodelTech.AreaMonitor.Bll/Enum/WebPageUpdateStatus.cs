@@ -1,4 +1,4 @@
-﻿namespace GodelTech.AreaMonitor.Bll.Dto
+﻿namespace GodelTech.AreaMonitor.Bll.Enum
 {
     public enum WebPageUpdateStatus
     {
