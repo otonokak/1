@@ -1,4 +1,6 @@
-﻿namespace GodelTech.AreaMonitor.Bll.Dto
+﻿using GodelTech.AreaMonitor.Bll.Enum;
+
+namespace GodelTech.AreaMonitor.Bll.Dto
 {
     public class UserDto
     {
