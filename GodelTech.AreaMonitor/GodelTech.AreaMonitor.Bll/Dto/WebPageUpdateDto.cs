@@ -8,10 +8,10 @@ namespace GodelTech.AreaMonitor.Bll.Dto
 
         public DateTime ScheduledDate { get; set; }
 
-        public int Status { get; set; }
-
         public DateTime ProcessingDate { get; set; }
 
         public int UserWebPageId { get; set; }
+
+        public enum Status { Active, Disabled }
     }
 }
