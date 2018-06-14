@@ -57,7 +57,7 @@
     <Compile Include="Context\Configurations\WebPageConfigurations.cs" />
     <Compile Include="Context\Configurations\WebPageUpdateConfigurations.cs" />
     <Compile Include="Interfaces\IBaseRepository.cs" />
-    <Compile Include="Interfaces\IUnitOfWork.cs" />
+    <Compile Include="Interfaces\IAreaMonitorUnitOfWork.cs" />
     <Compile Include="Interfaces\IUserRepository.cs" />
     <Compile Include="Interfaces\IUserWebPageRepository.cs" />
     <Compile Include="Interfaces\IWebPageRepository.cs" />
@@ -69,7 +69,7 @@
     <Compile Include="Models\WebPageUpdate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BaseRepository.cs" />
-    <Compile Include="Repositories\UnitOfWork.cs" />
+    <Compile Include="Repositories\AreaMonitorUnitOfWork.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="Repositories\UserWebPageRepository.cs" />
     <Compile Include="Repositories\WebPageRepository.cs" />

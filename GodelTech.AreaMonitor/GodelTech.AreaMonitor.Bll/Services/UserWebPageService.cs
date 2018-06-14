@@ -10,7 +10,7 @@ namespace GodelTech.AreaMonitor.Bll.Services
 {
     public class UserWebPageService : BaseService, IUserWebPageService
     {
-        public UserWebPageService(IUnitOfWork unitOfWork) : base(unitOfWork)
+        public UserWebPageService(IAreaMonitorUnitOfWork unitOfWork) : base(unitOfWork)
         {
         }
 

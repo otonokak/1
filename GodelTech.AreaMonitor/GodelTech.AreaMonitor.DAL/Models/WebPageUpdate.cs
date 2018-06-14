@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Data;
 
 namespace GodelTech.AreaMonitor.Dal.Models
 {

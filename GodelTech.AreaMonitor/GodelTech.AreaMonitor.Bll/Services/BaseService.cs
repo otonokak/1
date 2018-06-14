@@ -5,9 +5,9 @@ namespace GodelTech.AreaMonitor.Bll.Services
 {
     public abstract class BaseService
     {
-        protected readonly IUnitOfWork UnitOfWork;
+        protected readonly IAreaMonitorUnitOfWork UnitOfWork;
 
-        protected BaseService(IUnitOfWork unitOfWork)
+        protected BaseService(IAreaMonitorUnitOfWork unitOfWork)
         {
             UnitOfWork = unitOfWork ?? throw new ArgumentException(nameof(unitOfWork));
         }
