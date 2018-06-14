@@ -5,11 +5,11 @@ namespace GodelTech.AreaMonitor.Bll.Services
 {
     public abstract class BaseService
     {
-        protected readonly IAreaMonitorUnitOfWork UnitOfWork;
+        protected IAreaMonitorUnitOfWork unitOfWork { get; }
 
         protected BaseService(IAreaMonitorUnitOfWork unitOfWork)
         {
-            UnitOfWork = unitOfWork ?? throw new ArgumentException(nameof(unitOfWork));
+            this.unitOfWork = unitOfWork ?? throw new ArgumentException(nameof(unitOfWork));
         }
     }
 }
