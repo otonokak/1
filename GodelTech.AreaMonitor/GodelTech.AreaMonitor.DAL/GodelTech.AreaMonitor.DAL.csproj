@@ -51,7 +51,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\AreaMonitorContext.cs" />
-    <Compile Include="Context\AreaMonitorContextInitializer.cs" />
     <Compile Include="Context\Configurations\UserConfigurations.cs" />
     <Compile Include="Context\Configurations\UserWebPageConfigurations.cs" />
     <Compile Include="Context\Configurations\WebPageConfigurations.cs" />

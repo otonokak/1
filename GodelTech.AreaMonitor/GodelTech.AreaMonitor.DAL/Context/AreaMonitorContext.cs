@@ -13,8 +13,6 @@ namespace GodelTech.AreaMonitor.Dal.Context
         public AreaMonitorContext()
             : base("AreaMonitorDatabase")
         {
-            Database.SetInitializer(new AreaMonitorContextInitializer());
-            Database.Initialize(false);
         }
     }
 }
