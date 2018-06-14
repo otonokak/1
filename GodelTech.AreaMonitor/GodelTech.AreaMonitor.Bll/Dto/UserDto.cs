@@ -14,6 +14,6 @@
 
         public string RefreshToken { get; set; }
 
-        public enum Status { Active, Disabled }
+        public UserStatus Status { get; set; }
     }
 }

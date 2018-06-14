@@ -12,6 +12,6 @@ namespace GodelTech.AreaMonitor.Bll.Dto
 
         public int UserWebPageId { get; set; }
 
-        public enum Status { Active, Disabled }
+        public WebPageUpdateStatus Status { get; set; }
     }
 }

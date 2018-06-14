@@ -41,9 +41,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dto\UserDto.cs" />
+    <Compile Include="Dto\UserStatus.cs" />
     <Compile Include="Dto\UserWebPageDto.cs" />
     <Compile Include="Dto\WebPageDto.cs" />
     <Compile Include="Dto\WebPageUpdateDto.cs" />
+    <Compile Include="Dto\WebPageUpdateStatus.cs" />
     <Compile Include="Infrastructure\OperationDetails.cs" />
     <Compile Include="Interfaces\IUserService.cs" />
     <Compile Include="Interfaces\IUserWebPageService.cs" />
