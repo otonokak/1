@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodelTech.AreaMonitor.Api", "GodelTech.AreaMonitor.Api\GodelTech.AreaMonitor.Api.csproj", "{CCF22410-E612-4D1E-80E4-8642373C3D06}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{E2FCA6E8-4DFE-4149-9299-CC07983A0A24}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		GodelTech.AreaMonitor.sln.DotSettings = GodelTech.AreaMonitor.sln.DotSettings
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
