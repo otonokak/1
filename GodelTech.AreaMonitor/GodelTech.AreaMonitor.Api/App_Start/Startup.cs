@@ -1,5 +1,4 @@
 ﻿using Autofac.Integration.WebApi;
-using GodelTech.AreaMonitor.Api.Utils;
 using Microsoft.Owin;
 using Owin;
 using System.Web.Http;

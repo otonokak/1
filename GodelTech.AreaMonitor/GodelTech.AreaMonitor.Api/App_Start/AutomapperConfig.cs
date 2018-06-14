@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace GodelTech.AreaMonitor.Api.Utils
+namespace GodelTech.AreaMonitor.Api
 {
     public class AutomapperConfig : Profile
     {

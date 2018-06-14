@@ -4,7 +4,7 @@ using GodelTech.AreaMonitor.Dal.Context;
 using GodelTech.AreaMonitor.Dal.Interfaces;
 using GodelTech.AreaMonitor.Dal.Repositories;
 
-namespace GodelTech.AreaMonitor.Api.Utils
+namespace GodelTech.AreaMonitor.Api
 {
     public class AutofacConfig
     {

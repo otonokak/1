@@ -12,6 +12,6 @@
 
         public string RefreshToken { get; set; }
 
-        public int Status { get; set; }
+        public bool Status { get; set; }
     }
 }
