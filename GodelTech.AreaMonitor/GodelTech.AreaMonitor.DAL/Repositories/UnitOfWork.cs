@@ -17,6 +17,14 @@ namespace GodelTech.AreaMonitor.Dal.Repositories
             this.lifetimeScope = lifetimeScope ?? throw new ArgumentNullException(nameof(lifetimeScope));
         }
 
+        public IUserRepository UserRepository => GetRepository<IUserRepository>();
+
+        public IUserWebPageRepository UserWebPageRepository => GetRepository<IUserWebPageRepository>();
+
+        public IWebPageRepository WebPageRepository => GetRepository<IWebPageRepository>();
+
+        public IWebPageUpdateRepository WebPageUpdateRepository => GetRepository<IWebPageUpdateRepository>();
+
         public async Task SaveAsync()
         {
             await context.SaveChangesAsync();
