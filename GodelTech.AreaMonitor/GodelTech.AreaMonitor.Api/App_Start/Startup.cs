@@ -13,10 +13,9 @@ namespace GodelTech.AreaMonitor.Api
         public void Configuration(IAppBuilder app)
         {
             var config = new HttpConfiguration();
-            var container = AutofacConfig.ConfigureContainer().Build();
-            config.DependencyResolver = new AutofacWebApiDependencyResolver(container);
 
-            app.UseAutofacMiddleware(container);
+            config.DependencyResolver = AutofacConfig.CreateResolver();
+
             app.UseAutofacWebApi(config);
             app.UseWebApi(config);
         }

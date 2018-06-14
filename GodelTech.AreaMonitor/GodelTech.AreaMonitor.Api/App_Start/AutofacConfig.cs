@@ -1,4 +1,7 @@
-﻿using Autofac;
+﻿using System.Web.Http;
+using System.Web.Http.Dependencies;
+using Autofac;
+using Autofac.Integration.WebApi;
 using AutoMapper;
 using GodelTech.AreaMonitor.Dal.Context;
 using GodelTech.AreaMonitor.Dal.Interfaces;
@@ -33,7 +36,7 @@ namespace GodelTech.AreaMonitor.Api
             builder.Register(c => c.Resolve<MapperConfiguration>().CreateMapper(c.Resolve)).As<IMapper>().InstancePerLifetimeScope();
         }
 
-        public static ContainerBuilder ConfigureContainer()
+        private static ContainerBuilder ConfigureContainer()
         {
             var builder = new ContainerBuilder();
             RegisterServices(builder);
@@ -41,6 +44,12 @@ namespace GodelTech.AreaMonitor.Api
             RegisterRepository(builder);
             RegisterAutomapper(builder);
             return builder;
+        }
+
+        public static IDependencyResolver CreateResolver()
+        {
+            var container = ConfigureContainer().Build();
+            return new AutofacWebApiDependencyResolver(container);
         }
     }
 }
