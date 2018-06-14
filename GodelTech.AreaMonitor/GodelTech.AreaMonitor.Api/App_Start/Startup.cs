@@ -1,13 +1,13 @@
 ﻿using Autofac.Integration.WebApi;
-using GodelTech.AreaMonitor.Api.App_Start;
 using GodelTech.AreaMonitor.Api.Utils;
 using Microsoft.Owin;
 using Owin;
 using System.Web.Http;
+using GodelTech.AreaMonitor.Api;
 
 [assembly: OwinStartup(typeof(Startup))]
 
-namespace GodelTech.AreaMonitor.Api.App_Start
+namespace GodelTech.AreaMonitor.Api
 {
     public class Startup
     {
