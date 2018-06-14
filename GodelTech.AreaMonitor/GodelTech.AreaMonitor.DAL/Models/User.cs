@@ -1,4 +1,6 @@
-﻿namespace GodelTech.AreaMonitor.Dal.Models
+﻿using GodelTech.AreaMonitor.Dal.Enum;
+
+namespace GodelTech.AreaMonitor.Dal.Models
 {
     public class User : BaseEntity
     {
@@ -12,6 +14,6 @@
 
         public string RefreshToken { get; set; }
 
-        public bool Status { get; set; }
+        public UserStatus Status { get; set; }
     }
 }
