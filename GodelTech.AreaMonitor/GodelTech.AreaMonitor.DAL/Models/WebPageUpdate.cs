@@ -9,7 +9,7 @@ namespace GodelTech.AreaMonitor.Dal.Models
 
         public DateTime ScheduledDate { get; set; }
 
-        public bool Status { get; set; }
+        public int Status { get; set; }
 
         public DateTime ProcessingDate { get; set; }
 
