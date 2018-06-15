@@ -664,6 +664,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 
 
 .main{
+    background-image: url('/src/images/default.jpg');
     background-position: center center;
     background-size: cover;
     height: auto;
@@ -806,6 +807,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 @media (min-width:219px){        
     .main .subscribe .form-group{
         width: auto;
+        align: center;
     }   
     .main .subscribe .form-inline .btn{
         width: 100%;
